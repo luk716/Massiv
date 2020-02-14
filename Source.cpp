@@ -24,9 +24,11 @@ void Printarr(int arr[3][8], int const ROW, int const WAL)
 }
 void main()
 {
-	setlocale(LC_ALL, "Ru");
+	setlocale(LC_ALL, "Ru"); 
 	int ROW = 3,WAL=8;
 	srand(time(NULL));
+	int g=10;
+	cout<<g<<endl;
 	int arg[3][8];
 	Fillarr(arg, ROW, WAL);
 	Printarr(arg, ROW, WAL);
